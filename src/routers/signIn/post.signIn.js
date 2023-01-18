@@ -27,6 +27,6 @@ async function signInRouterFunction(req, res, next) {
   }
 }
 
-router.post("/", signInRouterFunction);
+router.post("/facebook", signInRouterFunction);
 
 module.exports = router;
